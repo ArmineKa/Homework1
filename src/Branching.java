@@ -6,7 +6,7 @@ public class Branching {
         // Write a program that takes as an input three numbers and print "increasing" if the numbers are in increasing order,
         // "decreasing" if the numbers are in decreasing order, and "neither" otherwise (use conditional operators)
 
-     /*   Scanner scanner =new Scanner(System.in);
+      Scanner scanner =new Scanner(System.in);
 int a = scanner.nextInt() ;
 int b = scanner.nextInt();
 int c = scanner.nextInt();
@@ -14,7 +14,7 @@ int c = scanner.nextInt();
      System.out.println("increasing");
  }else if (a > b && b > c){
      System.out.println("decreasing");
- } else System.out.println("neither");*/
+ } else System.out.println("neither");
 
 
         // Write a program that takes as an input an integer  representing the year  and determines whether it is a leap year.
@@ -22,19 +22,19 @@ int c = scanner.nextInt();
         // A century year  is a leap year  only if it is perfectly divisible by 400.
 
 
-       /* Scanner scanner =new Scanner(System.in);
+        //Scanner scanner =new Scanner(System.in);
         int year = scanner.nextInt();
         if ((year % 4== 0 && year % 100 !=0 ) || ( year % 400 ==0)){
             System.out.println("Leap Year");
-        }*/
+        }
 
 // Write a program that takes as an input a character representing an operator and two integers.
 // It performs a calculation based on the numbers and the operator entered(program should use switch statement)
-       /* Scanner scanner =new Scanner(System.in);
+       // Scanner scanner =new Scanner(System.in);
         String character = scanner.next();
-        int a = scanner.nextInt() ;
-        int b = scanner.nextInt();
-        int c = scanner.nextInt();
+        //int a = scanner.nextInt() ;
+        //int b = scanner.nextInt();
+        //int c = scanner.nextInt();
         int result;
         switch (character) {
             case "*":
@@ -56,7 +56,7 @@ int c = scanner.nextInt();
             default:
                 System.out.println("character is not an operator");
 
-        }*/
+        }
         // Write a program that takes as an input the semester and the name of the program and outputs the required courses
         // based on the following table( program should use nested switch statements)
 
